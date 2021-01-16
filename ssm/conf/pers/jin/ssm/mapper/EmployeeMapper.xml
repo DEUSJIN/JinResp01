@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.jin.ssm.mapper.EmployeeMapper">
+<!--    List<Employee> getAllEmps();-->
+    <select id="getAllEmps" resultMap="myEmpAndDept">
+        select e.id,e.last_name,e.email,e.gender,e.departmentId dId,d.name deptName
+        from employee e,department d
+        where e.departmentId=d.id
+    </select>
+    <resultMap id="myEmpAndDept" type="pers.jin.ssm.beans.Employee">
+        <id property="id" column="id"></id>
+        <result property="lastName" column="last_name"></result>
+        <result property="email" column="email"></result>
+        <result property="gender" column="gender"></result>
+<!--        <result property="department.id" column="dId"></result>-->
+<!--        <result property="department.name" column="name"></result>-->
+        <association property="department" javaType="pers.jin.ssm.beans.Department">
+            <id property="id" column="dId" ></id>
+            <result property="name" column="deptName"></result>
+        </association>
+    </resultMap>
+</mapper>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="student" class="pers.jin.helloworld.beans.Student">
+        <property name="name">
+            <value><![CDATA["]]>小明<![CDATA["]]></value>
+        </property>
+        <property name="carList" ref="carList"></property>
+    </bean>
+    <bean id="car" class="pers.jin.helloworld.beans.Car">
+        <constructor-arg value="Rezvani" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="BEAST X" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="800000"  type="double"></constructor-arg>
+    </bean>
+    <bean id="car1" class="pers.jin.helloworld.beans.Car">
+        <constructor-arg value="奔驰" index="0" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="260" index="2" type="double"></constructor-arg>
+        <constructor-arg value="700000" index="1" type="double"></constructor-arg>
+    </bean>
+    <bean id="car2" class="pers.jin.helloworld.beans.Car"
+          p:brand="奔驰" p:model= "梅赛德斯" p:price="600000" p:speed="260">
+    </bean>
+    <util:list id="carList">
+        <ref bean="car"></ref>
+        <ref bean="car1"></ref>
+        <ref bean="car2"></ref>
+    </util:list>
+</beans>

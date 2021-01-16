@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
+
+    <!--        组件扫描-->
+    <context:component-scan base-package="pers.jin.ssm">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+    <!--    数据源-->
+    <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+          p:user="${jdbc.username}"
+          p:password="${jdbc.password}"
+          p:jdbcUrl="${jdbc.url}"
+          p:driverClass="${jdbc.driver}">
+    </bean>
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
+          p:dataSource-ref="dataSource">
+    </bean>
+    <!--    事务-->
+    <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager"
+          p:dataSource-ref="dataSource">
+    </bean>
+    <!--    基于注解使用事务-->
+    <tx:annotation-driven transaction-manager="dataSourceTransactionManager"></tx:annotation-driven>
+    <!--    spring整合mybatis-->
+    <!--    1、sqlSession的创建-->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean"
+          p:dataSource-ref="dataSource"
+          p:configLocation="classpath:mybatis-config.xml">
+    </bean>
+    <!--    2、Mapper接口代理实现类对象的创建、管理
+            MapperScannerConfigurer 会为指定包下的Mapper接口生成代理实现类对象并保管到IOC容器中
+            EmployeeMapper===>代理实现类 ==>对象：对象在IOC容器中的id值为：employeeMapper
+    -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"
+          p:basePackage="pers.jin.ssm.mapper">
+    </bean>
+    <!--    <mybatis-spring:scan base-package="pers.jin.ssm.mapper"></mybatis-spring:scan>-->
+
+</beans>
