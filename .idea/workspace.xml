@@ -2,720 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ssmPra02:war exploded" />
+      <artifact name="ssmPra03:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43813dff-c8c0-4f3a-8ca0-b53b868c217f" name="Default Changelist" comment="springMVC提交">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/practice_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring02Pra_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc01_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc01_war_exploded2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc01_war_exploded3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc02Pra_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc02_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc03_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssmPra01_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssmPra02_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/META-INF/practice.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/pers/jin/springmvc/beans/Building.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/pers/jin/springmvc/beans/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/pers/jin/springmvc/dao/BuildingDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/pers/jin/springmvc/dao/BuildingDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/pers/jin/springmvc/dao/CustomerDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/pers/jin/springmvc/dao/CustomerDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/pers/jin/springmvc/exception/CustomerHasExist.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/pers/jin/springmvc/handler/CrudHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/c3p0-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/practice_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/classes/pers/jin/spring/helloworld/HelloWordHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded2/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/classes/META-INF/springmvc01.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/classes/pers/jin/springmvc/beans/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/classes/pers/jin/springmvc/beans/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/classes/pers/jin/springmvc/helloworld/SpringMVCHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc01_war_exploded3/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/classes/pers/jin/spring/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/classes/pers/jin/spring/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/classes/pers/jin/spring/dao/EmployeeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/classes/pers/jin/spring/dao/EmployeeDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/classes/pers/jin/spring/handler/SpringMvcHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/classes/springxml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/c3p0-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/views/addEmployee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/views/employees.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02Pra_war_exploded/scripts/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/123.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/classes/pers/jin/springmvc/handler/SpringMvcHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc02_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/classes/pers/jin/spring/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/classes/pers/jin/spring/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/classes/pers/jin/spring/dao/EmployeeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/classes/pers/jin/spring/dao/EmployeeDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/classes/pers/jin/spring/handler/SpringMvcHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/c3p0-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/jackson-annotations-2.1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/jackson-core-2.1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/jackson-databind-2.1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/views/addEmployee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/views/employees.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/springmvc03_war_exploded/scripts/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/pers/jin/ssm/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/pers/jin/ssm/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/pers/jin/ssm/handler/EmployeeHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/pers/jin/ssm/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/pers/jin/ssm/service/EmployeeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra01_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/pers/jin/ssm/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/pers/jin/ssm/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/pers/jin/ssm/beans/handler/EmployeeHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/pers/jin/ssm/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/views/employeeList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssmPra02_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/META-INF/ssm.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/pers/jin/ssm/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/pers/jin/ssm/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/pers/jin/ssm/handler/EmployeeHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/pers/jin/ssm/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/pers/jin/ssm/service/EmployeeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/views/emps.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/dp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/helloword/beas/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/helloword/beas/CarFactoryBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/helloword/beas/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/helloword/beas/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/helloword/beas/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/spring/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/spring/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/spring/dao/UserDaoJdbcImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/spring/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/pers/jin/spring/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/spring-annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra/spring-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/META-INF/spring01Pra1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/annotation/AnnotationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/annotation/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/annotation/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/annotation/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/annotation/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/annotation/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy/ArithmeticCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy/ArithmeticCalculatorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy/ArithmeticCalculatorProxy$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy/ArithmeticCalculatorProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy1/ArithmeticCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy1/ArithmeticCalculatorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy1/ArithmeticCalculatorProxy$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy1/ArithmeticCalculatorProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/pers/jin/aop/proxy1/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring01Pra1/spring-annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/aspectj/annotation/ArithmeticCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/aspectj/annotation/ArithmeticCalculatorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/aspectj/annotation/LoggingAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/aspectj/annotation/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/aspectj/xml/ArithmeticCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/aspectj/xml/ArithmeticCalculatorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/aspectj/xml/LoggingAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/aspectj/xml/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/jdbc/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/tx/annotation/dao/BookShopDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/tx/annotation/dao/BookShopDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/tx/annotation/exception/BalanceException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/tx/annotation/exception/BookStockException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/tx/annotation/service/BookShopService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/tx/annotation/service/BookShopServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/pers/jin/spring/tx/annotation/test/TestTransaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/spring-aspectj_annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/spring-aspectj_xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/spring-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/spring03/spring-jdbc2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/pers/jin/springmvc/beans/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/pers/jin/springmvc/beans/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/pers/jin/springmvc/dao/BuildingDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/pers/jin/springmvc/dao/BuildingDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/pers/jin/springmvc/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/pers/jin/springmvc/dao/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/pers/jin/springmvc/exception/CustomerHasExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/pers/jin/springmvc/handler/CrudHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/src/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/META-INF/practice.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/pers/jin/springmvc/beans/Building.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/pers/jin/springmvc/beans/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/pers/jin/springmvc/dao/BuildingDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/pers/jin/springmvc/dao/BuildingDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/pers/jin/springmvc/dao/CustomerDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/pers/jin/springmvc/dao/CustomerDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/pers/jin/springmvc/exception/CustomerHasExist.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/pers/jin/springmvc/handler/CrudHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/c3p0-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/spring01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/pers/jin/helloworld/beans/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/pers/jin/helloworld/beans/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/pers/jin/helloworld/beans/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/lib/c3p0-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/spring01Pra.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/dp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/helloword/beas/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/helloword/beas/CarFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/helloword/beas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/helloword/beas/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/helloword/beas/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/spring/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/spring/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/spring/dao/UserDaoJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/spring/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/pers/jin/spring/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/spring-annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra/src/spring-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/lib/c3p0-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/spring01Pra1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/annotation/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/annotation/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/annotation/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/annotation/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/annotation/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/annotation/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy/ArithmeticCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy/ArithmeticCalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy/ArithmeticCalculatorProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy1/ArithmeticCalculatorProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01Pra1/src/spring-annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/c3p0-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/spring03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/aspectj/annotation/ArithmeticCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/aspectj/annotation/ArithmeticCalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/aspectj/annotation/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/aspectj/annotation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/aspectj/xml/ArithmeticCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/aspectj/xml/ArithmeticCalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/aspectj/xml/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/aspectj/xml/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/jdbc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/tx/annotation/dao/BookShopDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/tx/annotation/dao/BookShopDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/tx/annotation/exception/BalanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/tx/annotation/exception/BookStockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/tx/annotation/service/BookShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/tx/annotation/service/BookShopServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/pers/jin/spring/tx/annotation/test/TestTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/spring-aspectj_annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/spring-aspectj_xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/spring-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring03/src/spring-jdbc2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/springmvc01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/src/pers/jin/springmvc/beans/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/src/pers/jin/springmvc/beans/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/src/pers/jin/springmvc/helloworld/SpringMVCHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/src/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/classes/META-INF/springmvc01.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/classes/pers/jin/springmvc/beans/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/classes/pers/jin/springmvc/beans/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/classes/pers/jin/springmvc/helloworld/SpringMVCHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc01/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/springmvc02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/src/pers/jin/springmvc/handler/SpringMvcHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/src/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/classes/pers/jin/springmvc/handler/SpringMvcHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/views/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/springmvc02Pra.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/src/pers/jin/spring/beans/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/src/pers/jin/spring/beans/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/src/pers/jin/spring/dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/src/pers/jin/spring/dao/EmployeeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/src/pers/jin/spring/handler/SpringMvcHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/src/springxml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/classes/pers/jin/spring/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/classes/pers/jin/spring/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/classes/pers/jin/spring/dao/EmployeeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/classes/pers/jin/spring/dao/EmployeeDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/classes/pers/jin/spring/handler/SpringMvcHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/classes/springxml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/c3p0-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/views/addEmployee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/views/employees.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc02Pra/web/scripts/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/springmvc03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/src/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/src/pers/jin/spring/beans/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/src/pers/jin/spring/beans/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/src/pers/jin/spring/dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/src/pers/jin/spring/dao/EmployeeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/src/pers/jin/spring/handler/SpringMvcHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/src/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/classes/pers/jin/spring/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/classes/pers/jin/spring/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/classes/pers/jin/spring/dao/EmployeeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/classes/pers/jin/spring/dao/EmployeeDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/classes/pers/jin/spring/handler/SpringMvcHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/c3p0-0.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/jackson-annotations-2.1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/jackson-core-2.1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/jackson-databind-2.1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/views/addEmployee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/views/employees.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc03/web/scripts/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/conf/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/conf/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/conf/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/conf/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/conf/pers/jin/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/conf/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/pers/jin/ssm/beans/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/pers/jin/ssm/beans/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/pers/jin/ssm/handler/EmployeeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/pers/jin/ssm/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/pers/jin/ssm/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/src/pers/jin/ssm/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/ssm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/META-INF/ssm.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/pers/jin/ssm/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/pers/jin/ssm/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/pers/jin/ssm/handler/EmployeeHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/pers/jin/ssm/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/pers/jin/ssm/service/EmployeeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/views/emps.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/conf/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/conf/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/conf/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/conf/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/conf/pers/jin/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/conf/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/src/pers/jin/ssm/beans/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/src/pers/jin/ssm/beans/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/src/pers/jin/ssm/handler/EmployeeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/src/pers/jin/ssm/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/src/pers/jin/ssm/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/src/pers/jin/ssm/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/ssmPra01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/pers/jin/ssm/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/pers/jin/ssm/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/pers/jin/ssm/handler/EmployeeHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/pers/jin/ssm/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/pers/jin/ssm/service/EmployeeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra01/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/conf/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/conf/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/conf/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/conf/pers/jin/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/conf/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/beans/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/beans/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/beans/handler/EmployeeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/ssmPra02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/pers/jin/ssm/beans/Department.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/pers/jin/ssm/beans/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/pers/jin/ssm/beans/handler/EmployeeHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/pers/jin/ssm/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/pers/jin/ssm/service/EmployeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/mysql-connector-java-8.0.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/views/employeeList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssmPra02/web/index.jsp" afterDir="false" />
+    <list default="true" id="43813dff-c8c0-4f3a-8ca0-b53b868c217f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssmPra03_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -730,10 +24,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy1/Main.java">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/conf/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+            <state relative-caret-position="638">
+              <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
+              <folding>
+                <element signature="e#949#963#0" expanded="true" />
+                <element signature="e#985#1003#0" expanded="true" />
+                <element signature="e#1024#1037#0" expanded="true" />
+                <element signature="e#1062#1078#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/handler/EmployeeHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -741,11 +59,76 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy1/ArithmeticCalculatorProxy.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/conf/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="308">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/service/EmployeeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/service/EmployeeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/conf/pers/jin/ssm/mapper/EmployeeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/mapper/EmployeeMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/web/WEB-INF/views/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssmPra03/conf/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -756,11 +139,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="XML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
-        <option value="spring-beans.schema" />
-        <option value="XML File" />
       </list>
     </option>
   </component>
@@ -786,18 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springmvc02Pra/web/index.jsp" />
-        <option value="$PROJECT_DIR$/springmvc02Pra/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/springmvc03/src/jdbc.properties" />
-        <option value="$PROJECT_DIR$/springmvc03/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/springmvc03/src/springmvc.xml" />
-        <option value="$PROJECT_DIR$/springmvc03/src/pers/jin/spring/handler/SpringMvcHandler.java" />
-        <option value="$PROJECT_DIR$/springmvc03/web/index.jsp" />
-        <option value="$PROJECT_DIR$/ssm/conf/springmvc.xml" />
-        <option value="$PROJECT_DIR$/ssm/src/pers/jin/ssm/beans/Department.java" />
-        <option value="$PROJECT_DIR$/ssm/src/pers/jin/ssm/beans/Employee.java" />
-        <option value="$PROJECT_DIR$/ssm/src/pers/jin/ssm/mapper/EmployeeMapper.java" />
-        <option value="$PROJECT_DIR$/ssm/src/pers/jin/ssm/test/Test.java" />
         <option value="$PROJECT_DIR$/ssm/src/pers/jin/ssm/test/MyTest.java" />
         <option value="$PROJECT_DIR$/ssm/src/pers/jin/ssm/test/MyTest1.java" />
         <option value="$PROJECT_DIR$/ssm/conf/mybatis-config.xml" />
@@ -825,7 +196,6 @@
         <option value="$PROJECT_DIR$/ssmPra01/web/index.jsp" />
         <option value="$PROJECT_DIR$/ssmPra01/web/WEB-INF/views/list.jsp" />
         <option value="$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/mapper/EmployeeMapper.java" />
-        <option value="$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/service/EmployeeService.java" />
         <option value="$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/beans/handler/EmployeeHandler.java" />
         <option value="$PROJECT_DIR$/ssmPra02/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ssmPra02/conf/springmvc.xml" />
@@ -837,6 +207,19 @@
         <option value="$PROJECT_DIR$/ssmPra02/web/index.jsp" />
         <option value="$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy1/Main.java" />
         <option value="$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy1/ArithmeticCalculatorProxy.java" />
+        <option value="$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/ssmPra03/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ssmPra03/conf/db.properties" />
+        <option value="$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/ssmPra03/conf/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/ssmPra03/conf/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/ssmPra03/web/index.jsp" />
+        <option value="$PROJECT_DIR$/ssmPra03/web/WEB-INF/views/list.jsp" />
+        <option value="$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/service/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ssmPra03/conf/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/handler/EmployeeHandler.java" />
+        <option value="$PROJECT_DIR$/ssmPra03/conf/pers/jin/ssm/mapper/EmployeeMapper.xml" />
       </list>
     </option>
   </component>
@@ -846,6 +229,12 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="610" />
@@ -886,7 +275,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssmPra03/web/WEB-INF/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -896,19 +285,19 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA\ideaCode\spring\ssmPra02\web\WEB-INF\lib" />
-      <recent name="D:\IDEA\ideaCode\spring\ssmPra02\src\pers\jin\ssm\beans" />
-      <recent name="D:\IDEA\ideaCode\spring\ssmPra01\conf" />
-      <recent name="D:\IDEA\ideaCode\spring\ssmPra01\src\pers\jin\ssm\beans" />
-      <recent name="D:\IDEA\ideaCode\spring\ssmPra01\web\WEB-INF\lib" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pers.jin.springmvc.beans" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pers.jin.ssm.beans" />
       <recent name="pers.jin.springmvc.beans" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pers.jin.springmvc.beans" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\ideaCode\spring\ssmPra03\web\WEB-INF\lib" />
+      <recent name="D:\IDEA\ideaCode\spring\ssmPra03\src\pers\jin\ssm\beans" />
+      <recent name="D:\IDEA\ideaCode\spring\ssmPra02\web\WEB-INF\lib" />
+      <recent name="D:\IDEA\ideaCode\spring\ssmPra02\src\pers\jin\ssm\beans" />
+      <recent name="D:\IDEA\ideaCode\spring\ssmPra01\conf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1030,14 +419,14 @@
     <configuration name="Tomcat 7.0.106" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.106" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="ssmPra02:war exploded">
+        <artifact name="ssmPra03:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_106_spring_10" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_106_spring_11" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -1045,7 +434,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="3253" />
+        <option name="DEBUG_PORT" value="8075" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -1095,7 +484,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ssmPra02:war exploded" />
+          <artifact name="ssmPra03:war exploded" />
         </option>
       </method>
     </configuration>
@@ -1175,8 +564,23 @@
       <workItem from="1610523527937" duration="3263000" />
       <workItem from="1610588531096" duration="10000" />
       <workItem from="1610668969174" duration="3846000" />
-      <workItem from="1610800277244" duration="594000" />
+      <workItem from="1610800277244" duration="3286000" />
     </task>
+    <task id="LOCAL-00001" summary="springMVC提交">
+      <created>1610801009630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610801009630</updated>
+    </task>
+    <task id="LOCAL-00002" summary="springMVC提交">
+      <created>1610803566134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610803566134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1212,7 +616,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112666000" />
+    <option name="totallyTimeSpent" value="115358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1236,7 +640,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8472419" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8470255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1253,7 +657,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32984033" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
@@ -1303,110 +707,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="springMVC提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring01Pra/src/pers/jin/spring/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ssm/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar!/org/springframework/stereotype/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/conf/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/src/pers/jin/ssm/mapper/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/src/pers/jin/ssm/test/MyTest1.java" />
-    <entry file="file://$PROJECT_DIR$/ssm/src/pers/jin/ssm/beans/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/src/pers/jin/ssm/beans/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/src/pers/jin/ssm/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/src/pers/jin/ssm/handler/EmployeeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/conf/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/src/pers/jin/ssm/service/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssm/web/WEB-INF/views/emps.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -1522,28 +822,6 @@
     <entry file="file://$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/beans/Department.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/mapper/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssmPra01/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1587,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssmPra02/conf/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssmPra02/web/WEB-INF/views/employeeList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1611,31 +882,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssmPra02/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssmPra02/conf/pers/jin/ssm/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssmPra02/conf/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssmPra02/conf/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1666,7 +916,167 @@
     <entry file="file://$PROJECT_DIR$/spring01Pra1/src/pers/jin/aop/proxy1/ArithmeticCalculatorProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra02/src/pers/jin/ssm/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/beans/Employee.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/beans/Department.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra02/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra02/conf/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra02/conf/pers/jin/ssm/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="32" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra02/conf/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/conf/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/conf/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/web/WEB-INF/views/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/service/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/conf/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/handler/EmployeeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/src/pers/jin/ssm/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/conf/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
+          <folding>
+            <element signature="e#949#963#0" expanded="true" />
+            <element signature="e#985#1003#0" expanded="true" />
+            <element signature="e#1024#1037#0" expanded="true" />
+            <element signature="e#1062#1078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssmPra03/conf/pers/jin/ssm/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1711,6 +1121,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1722,7 +1133,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|ssmPra02</last-edited>
+          <last-edited>Spring|ssmPra03</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
